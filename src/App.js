@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { BuilderComponent, builder, useIsPreviewing } from "@builder.io/react";
+import ProjectCard from "./projectcard";
 
 // Put your API key here
 builder.init("481ecd094abe46c49a3ee5256ef72179");

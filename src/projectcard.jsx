@@ -1,7 +1,7 @@
 // src/ProjectCard.js
 import React from 'react';
 import { Builder } from '@builder.io/react';
-import 'ProjectCard.css';
+import './ProjectCard.css';
 
 const ProjectCard = ({ title, description, tags, imageSrc, imageAlt }) => {
   return (
